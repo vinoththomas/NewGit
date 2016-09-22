@@ -1,0 +1,38 @@
+GitHub
+vinoththomas
+vinoth.thomas@yahoo.co.in
+maria8086
+
+Git URL:
+https://github.com/vinoththomas/NewGit.git
+
+
+MyGitRepository
+To configure my user name to use git repository
+git config --global user.name "vinoththomas"
+
+Provide email id
+git config --global user.email vinoth.thomas@yahoo.co.in
+
+git clone:
+git clone https://github.com/vinoththomas/NewGit.git
+
+
+(Note: Git clone is failing to connect when VPN is connected)
+
+Test a creation of file in GIT folder in desktop and add to git (Adding Test1.txt)
+git add Test1.txt
+
+Commit changes to git:
+git commit -m "first commit" Test1.txt
+
+Push the file to Master:
+git push -u origin master
+
+To check the change in GIT
+git status
+Shows the file status whether it is in modified state or not
+
+
+
+ssh Key: 123456
